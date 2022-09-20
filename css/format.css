@@ -1,0 +1,52 @@
+body{
+    background-color: #90EE90;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden; /* Verstecke Horizontalen Scroller (Unsicher wie dieses Ding heißt)*/
+}
+h1{
+    text-align: center;
+}
+
+em{
+    color: orange;
+    font-weight: bold;
+}
+
+h1,h2,h3{
+    color: green;
+}
+h3{
+    font-style: italic;
+}
+img{
+    border-radius: 2.5px;
+}
+#logo{
+    background-color: #fff;
+}
+#wasserzeichen{
+    background-color: #fff;
+    float: right;
+    margin-right: -10px;
+}
+
+hr{
+    height: 10px;
+    /*
+    Die Höhe wird in der Vorlage
+    nur mit Höhe: angegeben,
+    aber ohne Wert
+    */
+}
+
+.orange{
+    background-color: orange;
+    width: 600px;
+    border: none;
+}
+
+.grau{
+    background-color: gray;
+    width: 400px;
+    border: none;
+}
